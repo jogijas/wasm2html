@@ -1,0 +1,10 @@
+test.js
+wasm2html.js
+publish.txt
+.npmignore
+node_modules/
+jspm_packages/
+.env
+*.log
+.DS_Store
+Thumbs.db
