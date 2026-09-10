@@ -17,7 +17,21 @@ module.exports = function wasm2html(wasmBuf, jsContent = '') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WASM Embedded Application</title>
+    <style>
+    #out{
+    width: 70%;
+    font-size:1.5em;
+    min-height:400px;
+    border:1px solid #cce;
+    box-shadow:6px 8px 12px #999;
+    background:#eef;
+    color:#88f;
+    margin:20px auto;
+    padding:10px 30px;
+    {
+    </style>
     </head>
+    <p id='out'></p>
     <body>
     <script>
     const wasmBase64 = "${wasmBase64}";

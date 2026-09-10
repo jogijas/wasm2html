@@ -1,6 +1,4 @@
-test.js
-wasm2html.js
-publish.txt
+index.html
 .npmignore
 node_modules/
 jspm_packages/
