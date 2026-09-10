@@ -1,0 +1,22 @@
+{
+  "name": "wasm2html",
+  "version": "1.0.0",
+  "description": "Create html document to get exported functions from wasm",
+  "keywords": [
+    "wasm",
+    "exports",
+    "wasm2html",
+    "wat2html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com"
+  },
+  "license": "MIT",
+  "author": "Joginder Jasrotia",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  }
+}
