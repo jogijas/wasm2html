@@ -28,7 +28,7 @@ module.exports = function wasm2html(wasmBuf, jsContent = '') {
     color:#46f;
     margin:20px auto;
     padding:10px 30px;
-    {
+    }
     </style>
     </head>
     <p id='out'></p>
