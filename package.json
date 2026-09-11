@@ -1,6 +1,6 @@
 {
   "name": "@jogijas/wasm2html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create html document to get exported functions from wasm",
   "keywords": [
     "wasm",
