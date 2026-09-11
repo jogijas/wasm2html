@@ -34,6 +34,11 @@ fs.writeFileSync('./index.html', htmlContent);
 
 console.log('Successfully bundled WASM into index.html!');
 ```
+## Run it as
+
+```bash
+node test.js
+```
 
 ## Inside the Generated HTML
 

@@ -24,8 +24,8 @@ module.exports = function wasm2html(wasmBuf, jsContent = '') {
     min-height:400px;
     border:1px solid #cce;
     box-shadow:6px 8px 12px #999;
-    background:#eef;
-    color:#88f;
+    background:#cef;
+    color:#46f;
     margin:20px auto;
     padding:10px 30px;
     {

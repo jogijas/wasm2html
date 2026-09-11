@@ -1,4 +1,5 @@
 index.html
+publish.txt
 .npmignore
 node_modules/
 jspm_packages/
