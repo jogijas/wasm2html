@@ -1,6 +1,6 @@
 {
   "name": "@jogijas/wasm2html",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create html document to get exported functions from wasm with interactive signature tables",
   "keywords": [
     "wasm signature",
