@@ -1,9 +1,8 @@
 index.html
-publish.txt
+calc.wasm
 .npmignore
 node_modules/
-jspm_packages/
-.env
-*.log
-.DS_Store
-Thumbs.db
+
+
+
+

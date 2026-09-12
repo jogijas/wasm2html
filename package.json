@@ -1,22 +1,32 @@
 {
   "name": "@jogijas/wasm2html",
-  "version": "1.0.2",
-  "description": "Create html document to get exported functions from wasm",
+  "version": "1.0.3",
+  "description": "Create html document to get exported functions from wasm with interactive signature tables",
   "keywords": [
+    "wasm signature",
     "wasm",
-    "exports",
     "wasm2html",
-    "wat2html"
+    "webassembly",
+    "html",
+    "embed",
+    "standalone",
+    "cli"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com"
+    "url": "git+https://github.com/jogijas/wasm2html"
   },
   "license": "MIT",
   "author": "Joginder Jasrotia",
   "type": "commonjs",
   "main": "index.js",
+  "bin": {
+    "wasm2html": "cli.js"
+  },
   "scripts": {
     "test": "node test.js"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
