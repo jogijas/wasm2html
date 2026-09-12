@@ -1,15 +1,12 @@
 {
   "name": "@jogijas/wasm2html",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Create html document to get exported functions from wasm with interactive signature tables",
   "keywords": [
-    "wasm signature",
     "wasm",
+    "exports",
     "wasm2html",
-    "webassembly",
-    "html",
-    "embed",
-    "standalone",
+    "wat2html",
     "cli"
   ],
   "repository": {
@@ -21,7 +18,8 @@
   "type": "commonjs",
   "main": "index.js",
   "bin": {
-    "wasm2html": "cli.js"
+    "wasm2html": "cli.js",
+    "@jogijas/wasm2html": "cli.js"
   },
   "scripts": {
     "test": "node test.js"
